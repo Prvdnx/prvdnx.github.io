@@ -49,70 +49,70 @@ export function Astronaut(props) {
                 name="Cube001_0"
                 geometry={nodes.Cube001_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube001_0.skeleton}
               />
               <skinnedMesh
                 name="Cube005_0"
                 geometry={nodes.Cube005_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube005_0.skeleton}
               />
               <skinnedMesh
                 name="Cube002_0"
                 geometry={nodes.Cube002_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube002_0.skeleton}
               />
               <skinnedMesh
                 name="Plane_0"
                 geometry={nodes.Plane_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Plane_0.skeleton}
               />
               <skinnedMesh
                 name="Cube008_0"
                 geometry={nodes.Cube008_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube008_0.skeleton}
               />
               <skinnedMesh
                 name="Cube004_0"
                 geometry={nodes.Cube004_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube004_0.skeleton}
               />
               <skinnedMesh
                 name="Cube003_0"
                 geometry={nodes.Cube003_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube003_0.skeleton}
               />
               <skinnedMesh
                 name="Cube_0"
                 geometry={nodes.Cube_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube_0.skeleton}
               />
               <skinnedMesh
                 name="Cube009_0"
                 geometry={nodes.Cube009_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube009_0.skeleton}
               />
               <skinnedMesh
                 name="Cube011_0"
                 geometry={nodes.Cube011_0.geometry}
                 material={materials["AstronautFallingTexture.png"]}
-                material-color="#4a4a4a"
+                material-color="#5a5a5a"
                 skeleton={nodes.Cube011_0.skeleton}
               />
               <group name="Cube001" />
