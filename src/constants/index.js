@@ -261,6 +261,11 @@ export const mySocials = [
     href: "https://www.linkedin.com/in/oghenefega-o-530894273",
     icon: "/assets/socials/linkedIn.svg",
   },
+  {
+    name: "GitHub",
+    href: "https://github.com/Prvdnx",
+    icon: "/assets/socials/github.svg",
+  },
 ];
 
 export const experiences = [
