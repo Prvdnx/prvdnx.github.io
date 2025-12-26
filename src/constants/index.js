@@ -143,7 +143,7 @@ export const myProjects = [
         id: 114,
         title: "Mobile Piscine",
         description: "Mobile application development bootcamp covering iOS and Android fundamentals with native frameworks.",
-        image: "/assets/projects/game-engine.jpg",
+        image: "/assets/projects/mobile-piscine.png",
         href: "https://github.com/Prvdnx/42-CORE/tree/main/Advanced%20Core/MOBILE%20PISCINE",
         tags: [
           { id: 1, name: "React Native", path: "/assets/logos/react.svg" },
@@ -154,7 +154,7 @@ export const myProjects = [
         id: 115,
         title: "ft_linear_regression",
         description: "Introduction to machine learning implementing linear regression from scratch with gradient descent.",
-        image: "/assets/projects/game-engine.jpg",
+        image: "/assets/projects/linear-regression.png",
         href: "https://github.com/Prvdnx/42-CORE/tree/main/Advanced%20Core/ft_linear_regression",
         tags: [
           { id: 1, name: "Python", path: "/assets/logos/python.svg" },
@@ -172,7 +172,7 @@ export const myProjects = [
         id: 201,
         title: "HTML/CSS/JS Practice Projects",
         description: "Collection of 16 interactive web applications showcasing frontend fundamentals and API integrations.",
-        image: "/assets/projects/auth-system.jpg",
+        image: "/assets/projects/web-practice.png",
         href: "https://github.com/Prvdnx/BE_CODESISTENT/tree/main/Practice%20-%20HTML%20%7C%20CSS%20%7C%20JS",
         demo: "https://prvdnxpractice.netlify.app/practice%20-%20html%20%7C%20css%20%7C%20js/",
         tags: [
@@ -185,7 +185,7 @@ export const myProjects = [
         id: 202,
         title: "Portfolio Website",
         description: "Personal portfolio showcasing projects with interactive 3D elements.",
-        image: "/assets/projects/auth-system.jpg",
+        image: "/assets/projects/portfolio-website.png",
         href: "",
         tags: [
           { id: 1, name: "React", path: "/assets/logos/react.svg" },
@@ -205,7 +205,7 @@ export const myProjects = [
         id: 301,
         title: "Calculator App",
         description: "Feature-rich calculator built with React Native supporting portrait and landscape modes.",
-        image: "/assets/projects/accessories.jpg",
+        image: "/assets/projects/calculator-app.png",
         href: "https://github.com/Prvdnx/42-CORE/tree/main/Advanced%20Core/MOBILE%20PISCINE/mobileModule00/calculator_app",
         tags: [
           { id: 1, name: "React Native", path: "/assets/logos/react.svg" },
@@ -216,7 +216,7 @@ export const myProjects = [
         id: 302,
         title: "Weather App",
         description: "Real-time weather application with API integration, geolocation, and dynamic backgrounds.",
-        image: "/assets/projects/accessories.jpg",
+        image: "/assets/projects/weather-app.png",
         href: "https://github.com/Prvdnx/42-CORE/tree/main/Advanced%20Core/MOBILE%20PISCINE/mobileModule03/advanced_weather_app",
         tags: [
           { id: 1, name: "React Native", path: "/assets/logos/react.svg" },
@@ -227,7 +227,7 @@ export const myProjects = [
         id: 303,
         title: "Mood Diary App",
         description: "Personal diary application with authentication, calendar views, and secure entry storage.",
-        image: "/assets/projects/accessories.jpg",
+        image: "/assets/projects/mood-diary.png",
         href: "https://github.com/Prvdnx/42-CORE/tree/main/Advanced%20Core/MOBILE%20PISCINE/mobileModule05/advanced_diary_app",
         tags: [
           { id: 1, name: "React Native", path: "/assets/logos/react.svg" },
