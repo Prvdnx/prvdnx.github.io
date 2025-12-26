@@ -16,7 +16,7 @@ const About = () => {
             src="assets/coding-pov.png"
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
-          <div className="z-10" style={{ textShadow: '0 0 40px rgba(0,0,0,1), 0 0 20px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,1)' }}>
+          <div className="z-10" style={{ textShadow: '-5px -5px 0 #282b4b, 5px -5px 0 #282b4b, -5px 5px 0 #282b4b, 5px 5px 0 #282b4b, -5px 0 0 #282b4b, 5px 0 0 #282b4b, 0 -5px 0 #282b4b, 0 5px 0 #282b4b' }}>
             <p className="headtext">Hi, I'm Oghenefega Okamonu</p>
             <p className="subtext">
               A dabbler in code and a 42 graduate currently pursuing the advanced core curriculum at 42 Bangkok.
