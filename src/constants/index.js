@@ -186,7 +186,8 @@ export const myProjects = [
         title: "Portfolio Website",
         description: "Personal portfolio showcasing projects with interactive 3D elements.",
         image: "/assets/projects/portfolio-website.png",
-        href: "",
+        href: "https://github.com/Prvdnx/prvdnx.github.io",
+        demo: "https://prvdnx.github.io/",
         tags: [
           { id: 1, name: "React", path: "/assets/logos/react.svg" },
           { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
