@@ -18,7 +18,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="relative c-space section-spacing">
+    <section id="projects" className="relative c-space section-spacing">
       <h2 className="text-heading">My Selected Projects</h2>
       <div className="mt-6 border-b border-neutral-700 w-full" />
       {myProjects.map((category) => (
