@@ -79,7 +79,7 @@ export const myProjects = [
         title: "miniRT",
         description: "Ray tracing engine rendering 3D scenes with geometric objects, lighting, and realistic camera effects.",
         image: "/assets/42-project-badges/minirte.png",
-        href: "https://github.com/Prvdnx/42-miniRT",
+        href: "https://github.com/gs313/miniRT",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -99,7 +99,7 @@ export const myProjects = [
         title: "ft_irc",
         description: "IRC (Internet Relay Chat) server implementation following RFC specifications with multi-client support.",
         image: "/assets/42-project-badges/ft_irce.png",
-        href: "https://github.com/Prvdnx/42-ft_irc",
+        href: "https://github.com/TanawatJukmongkol/ft_irc",
         tags: [
           { id: 1, name: "C++", path: "/assets/logos/cplusplus.svg" },
         ],
@@ -109,7 +109,7 @@ export const myProjects = [
         title: "CPP Modules",
         description: "Series of C++ exercises (00-09) covering OOP, polymorphism, templates, STL, and advanced C++ concepts.",
         image: "/assets/42-project-badges/cppe.png",
-        href: "https://github.com/Prvdnx/42-CPP_Modules",
+        href: "https://github.com/Prvdnx/42-CPP_MODULES",
         tags: [
           { id: 1, name: "C++", path: "/assets/logos/cplusplus.svg" },
         ],
@@ -119,7 +119,7 @@ export const myProjects = [
         title: "Inception",
         description: "DevOps infrastructure project using Docker to set up WordPress, MariaDB, and Nginx in isolated containers.",
         image: "/assets/42-project-badges/inceptione.png",
-        href: "https://github.com/Prvdnx/42-Inception",
+        href: "https://github.com/Prvdnx/42_Inception",
         tags: [
           { id: 1, name: "Docker", path: "/assets/logos/docker.svg" },
           { id: 2, name: "Linux", path: "/assets/logos/linux.svg" },
@@ -130,7 +130,7 @@ export const myProjects = [
         title: "ft_transcendence",
         description: "Full-stack web application featuring real-time multiplayer Pong, chat system, and user authentication.",
         image: "/assets/42-project-badges/ft_transcendencee.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/transcendence",
+        href: "https://github.com/bpassael/transcendence",
         tags: [
           { id: 1, name: "Docker", path: "/assets/logos/docker.svg" },
           { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
