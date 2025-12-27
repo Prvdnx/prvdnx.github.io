@@ -9,7 +9,7 @@ export const myProjects = [
         title: "Libft",
         description: "Custom C library implementing standard functions from scratch - the foundation for all future 42 projects.",
         image: "/assets/42-project-badges/libfte.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/ft_libft",
+        href: "https://github.com/Prvdnx/42-ft_libft",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -19,7 +19,7 @@ export const myProjects = [
         title: "ft_printf",
         description: "Recreation of the printf function with support for multiple format specifiers and advanced formatting.",
         image: "/assets/42-project-badges/ft_printfe.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/ft_printf",
+        href: "https://github.com/Prvdnx/42-ft_printf",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -29,7 +29,7 @@ export const myProjects = [
         title: "get_next_line",
         description: "Function that reads a line from a file descriptor efficiently, one line at a time with dynamic memory management.",
         image: "/assets/42-project-badges/get_next_linee.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/get_next_line",
+        href: "https://github.com/Prvdnx/42-get_next_line",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -39,7 +39,7 @@ export const myProjects = [
         title: "push_swap",
         description: "Sorting algorithm implementation using two stacks with optimized operations to minimize instruction count.",
         image: "/assets/42-project-badges/push_swape.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/push_swap",
+        href: "https://github.com/Prvdnx/42-push_swap",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -49,7 +49,7 @@ export const myProjects = [
         title: "minitalk",
         description: "Client-server communication program using UNIX signals to transmit strings between processes.",
         image: "/assets/42-project-badges/minitalke.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/minitalk",
+        href: "https://github.com/Prvdnx/42-minitalk",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -59,7 +59,7 @@ export const myProjects = [
         title: "Philosophers",
         description: "Classic dining philosophers problem solved with threads and mutexes, exploring concurrency and deadlock prevention.",
         image: "/assets/42-project-badges/philosopherse.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/Philosophers",
+        href: "https://github.com/Prvdnx/42-Philosophers",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -69,7 +69,7 @@ export const myProjects = [
         title: "FdF",
         description: "3D wireframe visualization of terrain maps using isometric projection and graphics programming fundamentals.",
         image: "/assets/42-project-badges/fdfe.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/FdF",
+        href: "https://github.com/Prvdnx/42-FdF",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -79,7 +79,7 @@ export const myProjects = [
         title: "miniRT",
         description: "Ray tracing engine rendering 3D scenes with geometric objects, lighting, and realistic camera effects.",
         image: "/assets/42-project-badges/minirte.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/miniRT",
+        href: "https://github.com/Prvdnx/42-miniRT",
         tags: [
           { id: 1, name: "C", path: "/assets/logos/c.svg" },
         ],
@@ -89,7 +89,7 @@ export const myProjects = [
         title: "NetPractice",
         description: "Network configuration exercises covering IP addressing, subnetting, routing, and TCP/IP fundamentals.",
         image: "/assets/42-project-badges/netpracticee.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/NetPractice",
+        href: "https://github.com/Prvdnx/42-NetPractice",
         tags: [
           { id: 1, name: "Networking", path: "/assets/logos/linux.svg" },
         ],
@@ -99,7 +99,7 @@ export const myProjects = [
         title: "ft_irc",
         description: "IRC (Internet Relay Chat) server implementation following RFC specifications with multi-client support.",
         image: "/assets/42-project-badges/ft_irce.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/ft_irc",
+        href: "https://github.com/Prvdnx/42-ft_irc",
         tags: [
           { id: 1, name: "C++", path: "/assets/logos/cplusplus.svg" },
         ],
@@ -109,7 +109,7 @@ export const myProjects = [
         title: "CPP Modules",
         description: "Series of C++ exercises (00-09) covering OOP, polymorphism, templates, STL, and advanced C++ concepts.",
         image: "/assets/42-project-badges/cppe.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/CPP%20Modules",
+        href: "https://github.com/Prvdnx/42-CPP_Modules",
         tags: [
           { id: 1, name: "C++", path: "/assets/logos/cplusplus.svg" },
         ],
@@ -119,7 +119,7 @@ export const myProjects = [
         title: "Inception",
         description: "DevOps infrastructure project using Docker to set up WordPress, MariaDB, and Nginx in isolated containers.",
         image: "/assets/42-project-badges/inceptione.png",
-        href: "https://github.com/Prvdnx/42-CORE/tree/main/Common%20Core/Inception",
+        href: "https://github.com/Prvdnx/42-Inception",
         tags: [
           { id: 1, name: "Docker", path: "/assets/logos/docker.svg" },
           { id: 2, name: "Linux", path: "/assets/logos/linux.svg" },
