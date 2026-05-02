@@ -2,7 +2,8 @@
 
 A clean, responsive, and highly customizable portfolio template for developers. Built with React, TypeScript, Tailwind CSS, and Vite.
 
-**Live Demo:** [https://prvdnx.github.io/](https://prvdnx.github.io/)
+**Template Live Demo:** [https://prvdnx.github.io/](https://prvdnx.github.io/)
+**Real Live Demo:** [https://ookamonu.pages.dev/](https://ookamonu.pages.dev/)
 
 ## 🚀 Getting Started
 
