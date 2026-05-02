@@ -10,10 +10,16 @@ import externalLinkIcon from "@/assets/icons/external-link.svg";
 import githubIcon from "@/assets/icons/github-project.svg";
 
 export const ProjectsSection = () => {
-  const [expandedGroupId, setExpandedGroupId] = useState<number | null>(null);
+  const [expandedGroupId, setExpandedGroupId] = useState<number | null>(
+    portfolioData.projectCategories[0]?.id || null
+  );
 
   const handleToggle = (id: number) => {
     setExpandedGroupId(expandedGroupId === id ? null : id);
+  };
+
+  const handleHover = (id: number) => {
+    setExpandedGroupId(id);
   };
 
   const totalProjects = portfolioData.projectCategories.reduce(
@@ -31,7 +37,11 @@ export const ProjectsSection = () => {
       </div>
 
       {portfolioData.projectCategories.map((category, index) => (
-        <div key={category.id} className={index > 0 ? "mt-4" : ""}>
+        <div 
+          key={category.id} 
+          className={index > 0 ? "mt-4" : ""}
+          onMouseEnter={() => handleHover(category.id)}
+        >
           <ProjectGroup
             title={category.category}
             description={category.description}
