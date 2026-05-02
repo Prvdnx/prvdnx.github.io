@@ -1,11 +1,12 @@
-import profileImg from "@/assets/prvdnxProfile.jpg";
+import profileImg from "@/assets/profile-placeholder.png";
+import { portfolioData } from "@/data/portfolioData";
 
 export const ProfileImage = () => {
   return (
     <div className="relative box-border caret-transparent mb-8">
       <div className="relative shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_20px_25px_-5px,rgba(0,0,0,0.1)_0px_8px_10px_-6px] box-border caret-transparent h-32 w-32 border-gray-50 overflow-hidden rounded-full border-4 border-solid md:h-40 md:w-40">
         <img
-          alt="Oghenefega Okamonu"
+          alt={portfolioData.name}
           sizes="100vw"
           src={profileImg}
           className="absolute text-transparent box-border h-full max-w-full object-cover w-full inset-0"

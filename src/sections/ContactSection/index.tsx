@@ -1,6 +1,7 @@
 import { useState, useRef, FormEvent, ChangeEvent } from "react";
 import emailjs from "@emailjs/browser";
 import { SectionHeader } from "@/components/SectionHeader";
+import { portfolioData } from "@/data/portfolioData";
 
 export const ContactSection = () => {
     const formRef = useRef<HTMLFormElement>(null);
@@ -21,16 +22,16 @@ export const ContactSection = () => {
 
         try {
             await emailjs.send(
-                "service_brs2wbi",
-                "template_u91wo1p",
+                portfolioData.contact.emailJsServiceId,
+                portfolioData.contact.emailJsTemplateId,
                 {
                     from_name: formData.name,
-                    to_name: "Ookamonu",
+                    to_name: portfolioData.contact.toName,
                     from_email: formData.email,
-                    to_email: "mr.okamonu@gmail.com",
+                    to_email: portfolioData.email,
                     message: formData.message,
                 },
-                "x1PfJHRdER4cpXMxz"
+                portfolioData.contact.emailJsPublicKey
             );
 
             setIsLoading(false);

@@ -1,3 +1,5 @@
+import { portfolioData } from "@/data/portfolioData";
+
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -7,12 +9,12 @@ export const Footer = () => {
         <div className="items-center box-border caret-transparent gap-x-4 flex flex-col justify-between gap-y-4 md:flex-row">
           <div className="text-zinc-400 text-sm box-border caret-transparent">
             <span className="box-border caret-transparent block">
-              © {currentYear} All rights reserved.
+              © {currentYear} {portfolioData.name}. All rights reserved.
             </span>
           </div>
           <div className="flex gap-4">
             <a
-              href="https://discord.com/users/967592597767983158"
+              href={portfolioData.socialLinks.discord}
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-400 hover:text-white transition-colors"
@@ -20,15 +22,7 @@ export const Footer = () => {
               Discord
             </a>
             <a
-              href="https://t.me/daprvdnx"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-zinc-400 hover:text-white transition-colors"
-            >
-              Telegram
-            </a>
-            <a
-              href="https://www.linkedin.com/in/oghenefega-o-530894273"
+              href={portfolioData.socialLinks.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-400 hover:text-white transition-colors"
@@ -36,7 +30,7 @@ export const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/Prvdnx"
+              href={portfolioData.socialLinks.github}
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-400 hover:text-white transition-colors"
