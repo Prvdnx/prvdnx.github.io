@@ -5,7 +5,7 @@ import { HorizontalProjectScroll } from "@/sections/ProjectsSection/components/H
 import { portfolioData } from "@/data/portfolioData";
 
 // Project Link Icons
-import externalLinkIcon from "@/assets/icons/external-link.svg";
+import externalLinkIcon from "@/assets/icons/website.svg";
 import githubIcon from "@/assets/icons/github-project.svg";
 
 export const ProjectsSection = () => {
