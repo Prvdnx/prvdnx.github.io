@@ -31,11 +31,11 @@ export const ProjectCard = (props: ProjectCardProps) => {
           />
         </div>
         <div className="box-border caret-transparent flex flex-col grow p-5">
-          <div className="items-start box-border caret-transparent flex justify-between mb-2">
-            <h3 className="text-xl font-bold box-border caret-transparent leading-7">
+          <div className="items-start box-border caret-transparent flex justify-between gap-2 mb-2">
+            <h3 className="text-base md:text-xl font-bold box-border caret-transparent leading-7">
               {props.title}
             </h3>
-            <div className="text-zinc-400 text-xs font-medium items-center box-border caret-transparent gap-x-1.5 flex leading-4 gap-y-1.5 px-2 py-1 rounded-full">
+            <div className="text-zinc-400 text-xs font-medium items-center box-border caret-transparent gap-x-1.5 flex shrink-0 leading-4 gap-y-1.5 px-2 py-1 rounded-full border border-white/[0.03]">
               <span
                 className={`box-border caret-transparent block h-2 w-2 rounded-full ${props.statusIndicatorClass} ${props.statusIndicatorClass.includes('green') ? 'animate-pulse' : ''}`}
               ></span>
