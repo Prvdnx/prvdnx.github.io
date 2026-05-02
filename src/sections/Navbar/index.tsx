@@ -21,7 +21,7 @@ export const Navbar = () => {
     ];
 
     return (
-        <nav className="sticky backdrop-blur-sm bg-neutral-950/80 w-full z-50 border-b border-white/[0.03] top-0">
+        <nav className="sticky backdrop-blur-sm bg-neutral-950/80 w-full z-50 border-b border-white/15 md:border-white/[0.03] top-0">
             <div className="max-w-screen-lg mx-auto px-2 md:px-8">
                 <div className="flex items-center justify-center h-16 w-full">
                     <div className="flex items-center gap-1 overflow-x-auto no-scrollbar max-w-full">

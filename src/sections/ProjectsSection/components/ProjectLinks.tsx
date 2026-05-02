@@ -8,7 +8,7 @@ export type ProjectLinksProps = {
 
 export const ProjectLinks = (props: ProjectLinksProps) => {
   return (
-    <div className="box-border caret-transparent gap-x-3 flex flex-wrap gap-y-3 mt-auto pt-4 border-t border-solid border-white/[0.03]">
+    <div className="box-border caret-transparent gap-x-3 flex flex-wrap gap-y-3 mt-auto pt-4 border-t border-solid border-white/15 md:border-white/[0.03]">
       {props.showWebsite && props.websiteUrl && (
         <a
           href={props.websiteUrl}

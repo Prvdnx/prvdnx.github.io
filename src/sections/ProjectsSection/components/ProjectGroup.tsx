@@ -10,7 +10,7 @@ export const ProjectGroup = (props: ProjectGroupProps) => {
     return (
         <div
             onClick={props.onToggle}
-            className="bg-neutral-950/80 border border-white/[0.03] rounded-xl p-6 cursor-pointer hover:border-white/[0.08] transition-colors"
+            className="bg-neutral-950/80 border border-white/15 md:border-white/[0.03] rounded-xl p-6 cursor-pointer hover:border-white/[0.08] transition-colors"
         >
             <div className="flex items-center justify-between">
                 <div className="flex-1">

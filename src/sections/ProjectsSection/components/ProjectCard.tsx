@@ -21,8 +21,8 @@ export type ProjectCardProps = {
 export const ProjectCard = (props: ProjectCardProps) => {
   return (
     <div className="box-border caret-transparent h-full">
-      <div className="bg-neutral-950/80 box-border caret-transparent flex flex-col h-full border overflow-hidden rounded-xl border-solid border-white/[0.03]">
-        <div className="relative box-border caret-transparent h-48 overflow-hidden border-b border-solid border-white/[0.03]">
+      <div className="bg-neutral-950/80 box-border caret-transparent flex flex-col h-full border overflow-hidden rounded-xl border-solid border-white/15 md:border-white/[0.03]">
+        <div className="relative box-border caret-transparent h-48 overflow-hidden border-b border-solid border-white/15 md:border-white/[0.03]">
           <img
             alt={props.imageAlt}
             sizes="100vw"
@@ -35,7 +35,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
             <h3 className="text-base md:text-xl font-bold box-border caret-transparent leading-7">
               {props.title}
             </h3>
-            <div className="text-zinc-400 text-xs font-medium items-center box-border caret-transparent gap-x-1.5 flex shrink-0 leading-4 gap-y-1.5 px-2 py-1 rounded-full border border-white/[0.03]">
+            <div className="text-zinc-400 text-xs font-medium items-center box-border caret-transparent gap-x-1.5 flex shrink-0 leading-4 gap-y-1.5 px-2 py-1 rounded-full border border-white/15 md:border-white/[0.03]">
               <span
                 className={`box-border caret-transparent block h-2 w-2 rounded-full ${props.statusIndicatorClass} ${props.statusIndicatorClass.includes('green') ? 'animate-pulse' : ''}`}
               ></span>
@@ -58,7 +58,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
             {props.technologies.map((tech, index) => (
               <span
                 key={index}
-                className="text-zinc-400 text-xs box-border caret-transparent block leading-4 border px-2 py-1 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-white/[0.03]"
+                className="text-zinc-400 text-xs box-border caret-transparent block leading-4 border px-2 py-1 rounded-bl rounded-br rounded-tl rounded-tr border-solid border-white/15 md:border-white/[0.03]"
               >
                 {tech}
               </span>

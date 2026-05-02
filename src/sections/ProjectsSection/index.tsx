@@ -64,7 +64,7 @@ export const ProjectsSection = () => {
           href={portfolioData.socialLinks.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="group inline-flex items-center gap-2 px-6 py-3 bg-transparent border border-white/10 rounded-lg text-white font-medium hover:border-white/20 hover:bg-blue-600/10 transition-all"
+          className="group inline-flex items-center gap-2 px-6 py-3 bg-transparent border border-white/15 md:border-white/10 rounded-lg text-white font-medium hover:border-white/20 hover:bg-blue-600/10 transition-all"
         >
           <img src={githubIcon} alt="GitHub" className="w-5 h-5" />
           View All Projects on GitHub

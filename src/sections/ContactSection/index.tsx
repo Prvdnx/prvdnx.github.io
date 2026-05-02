@@ -48,7 +48,7 @@ export const ContactSection = () => {
         <section className="box-border caret-transparent mt-16" id="contact">
             <SectionHeader title="Contact" />
             <div className="box-border caret-transparent max-w-xl mx-auto mt-8">
-                <div className="bg-neutral-950/80 border border-white/[0.03] rounded-2xl p-8 relative overflow-hidden">
+                <div className="bg-neutral-950/80 border border-white/15 md:border-white/[0.03] rounded-2xl p-8 relative overflow-hidden">
 
 
                     <div className="relative z-10">

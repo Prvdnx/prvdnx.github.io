@@ -12,7 +12,7 @@ export const Hero = () => {
         <h1 className="text-3xl font-semibold box-border caret-transparent tracking-[-0.75px] leading-9 break-words md:text-4xl md:tracking-[-1.2px] md:leading-[48px]">
           {portfolioData.name}
         </h1>
-        <div className="items-center bg-neutral-950/80 box-border caret-transparent gap-x-2 inline-flex gap-y-2 border mt-3 px-4 py-2 rounded-full border-solid border-white/[0.03]">
+        <div className="items-center bg-neutral-950/80 box-border caret-transparent gap-x-2 inline-flex gap-y-2 border mt-3 px-4 py-2 rounded-full border-solid border-white/15 md:border-white/[0.03]">
           <img
             src={badgeIcon}
             alt="Icon"

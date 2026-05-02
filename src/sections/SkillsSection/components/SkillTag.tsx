@@ -4,7 +4,7 @@ export type SkillTagProps = {
 
 export const SkillTag = (props: SkillTagProps) => {
   return (
-    <span className="text-sm font-medium bg-neutral-950/80 box-border caret-transparent block leading-5 border px-4 py-1 rounded-full border-solid border-white/[0.03]">
+    <span className="text-sm font-medium bg-neutral-950/80 box-border caret-transparent block leading-5 border px-4 py-1 rounded-full border-solid border-white/15 md:border-white/[0.03]">
       {props.label}
     </span>
   );
