@@ -11,10 +11,11 @@ export type ProjectCardProps = {
   description: string;
   technologies: string[];
   websiteUrl: string;
-  websiteIconUrl: string;
   githubUrl?: string;
-  githubIconUrl?: string;
-  imageFit?: 'contain' | 'cover'; // Optional: 'contain' shows full image, 'cover' fills/crops to fit
+  imageFit?: 'contain' | 'cover'; 
+  // Icons are passed separately or handled internally
+  websiteIconUrl: string;
+  githubIconUrl: string;
 };
 
 export const ProjectCard = (props: ProjectCardProps) => {

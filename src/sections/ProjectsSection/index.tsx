@@ -41,6 +41,8 @@ export const ProjectsSection = () => {
           <HorizontalProjectScroll
             projects={category.projects}
             isVisible={expandedGroupId === category.id}
+            websiteIconUrl={externalLinkIcon}
+            githubIconUrl={githubIcon}
           />
         </div>
       ))}

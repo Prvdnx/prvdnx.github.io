@@ -1,8 +1,10 @@
 import { ProjectCard, ProjectCardProps } from "./ProjectCard";
 
 export type HorizontalProjectScrollProps = {
-    projects: ProjectCardProps[];
+    projects: any[]; // Changed to any to handle raw data from portfolioData
     isVisible: boolean;
+    websiteIconUrl: string;
+    githubIconUrl: string;
 };
 
 export const HorizontalProjectScroll = (props: HorizontalProjectScrollProps) => {
@@ -15,7 +17,11 @@ export const HorizontalProjectScroll = (props: HorizontalProjectScrollProps) => 
             >
                 {props.projects.map((project, index) => (
                     <div key={`${project.imageAlt}-${index}`} className="flex-shrink-0 w-[400px]">
-                        <ProjectCard {...project} />
+                        <ProjectCard 
+                            {...project} 
+                            websiteIconUrl={props.websiteIconUrl}
+                            githubIconUrl={props.githubIconUrl}
+                        />
                     </div>
                 ))}
             </div>
