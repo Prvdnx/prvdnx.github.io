@@ -1,4 +1,4 @@
-import profileImg from "@/assets/prvdnxProfile.jpg";
+import profileImg from "@/assets/profile-placeholder.png";
 import { portfolioData } from "@/data/portfolioData";
 
 export const ProfileImage = () => {
